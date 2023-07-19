@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- swipper css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Grocery - Shop your daily goods</title>
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <!-- topbar -->
+            <div class="topbar">
+                <div class="container">
+                    <ul class="topbar-menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">My account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- logo container -->
+            <div class="logo-container">
+                <div class="logo-wrapper container">
+                    <div class="logo">
+                        <a href="#"><img src="./assets/img/growceries-logo-min.png" alt=""></a>
+                    </div>
+                    <div class="delivery-content">
+                        <div class="delivery">
+                            <img src="./assets/img/delivery-free-min.png" alt="">
+                            <div class="delivery-text">
+                                <h4>Free Delivery</h4>
+                                <span>For min. $50 orders</span>
+                            </div>
+                        </div>
+                        <div class="hotline">
+                            <img src="./assets/img/hotline-min.png" alt="">
+                            <div class="hotline-text">
+                                <span>Hotline</span>
+                                <h4>+01 7653248</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- navbar -->
+            <nav id="navbar">
+                <div class="nav-content container">
+                    <!-- mobile function -->
+                    <input type="radio" name="slide" id="mobile-btn">
+                    <input type="radio" name="slide" id="cancal-btn">
+
+                    <label for="mobile-btn">
+                        <i class="fas fa-bars mobile-btn-bar"></i>
+                    </label>
+
+                    <ul class="nav-menu">
+                        <label for="cancal-btn">
+                            <i class="fas fa-times cancal-btn-cross"></i>
+                        </label>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">404 Page</a></li>
+                    </ul>
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-number">0</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- banner section -->
+        <section id="banner">
+            <div class="banner-content container">
+                <h1 class="banner-heading text-center">Quality Fresh Produce to Your <br>Door Step</h1>
+                <p class="text-center">We source our produce from nearly 10.000 farmers around the states. We guarantee
+                    that they share the same passion as we are, in providing good produce.</p>
+                <div class="banner-bottom">
+                    <div class="quick">
+                        <img src="./assets/img/banner/shipping-min.png" alt="">
+                        <div class="q-text">
+                            <h3>Same Day</h3>
+                            <span>Delivery Service</span>
+                        </div>
+                    </div>
+                    <div class="fresh">
+                        <img src="./assets/img/banner/guarantee-min.png" alt="">
+                        <div class="q-text">
+                            <h3>100% freshness</h3>
+                            <span>Guaranteed</span>
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <img src="./assets/img/banner/card-min.png" alt="">
+                        <div class="q-text">
+                            <h3>Confirmed</h3>
+                            <span>Secure Payment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- special offer -->
+        <section id="special-offer">
+            <div class="container">
+                <h2 class="title text-center">Special Offers</h2>
+                <h4 class="sub-title text-center">Offer ends November 15th, 23:59</h4>
+                <div class="special-product">
+                    <div class="product">
+                        <img src="./assets/img/offer-products/grape.jpg" alt="">
+                        <h6>Green Seedless Grape</h6>
+                        <p>$12</p>
+                        <a href="#" class="add-cart-btn">Add to cart</a>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/img/offer-products/corn.jpg" alt="">
+                        <h6>Fresh Corn on the cob</h6>
+                        <p>$14</p>
+                        <a href="#" class="add-cart-btn">Add to cart</a>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/img/offer-products/tomatoes.jpg" alt="">
+                        <h6>Roma Tomatoes</h6>
+                        <p>$12</p>
+                        <a href="#" class="add-cart-btn">Add to cart</a>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/img/offer-products/watermelon.jpg" alt="">
+                        <h6>Watermelon Seedless</h6>
+                        <p>$12</p>
+                        <a href="#" class="add-cart-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- small category -->
+        <section id="small-category">
+            <div class="sm-content container">
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+                <div class="sm-container">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>Vegetables</span>
+                </div>
+            </div>
+        </section>
+        <!-- vegetable  -->
+        <section id="vegetable">
+            <div class="vegetable-content container">
+                <div class="vegetable-left">
+                    <h2 class="title">Vegetables</h2>
+                    <p>Fresh Organic Vegetables from our farmers.</p>
+                </div>
+                <div class="vegetable-right">
+                    <div class="vp-top">
+                        <div class="product">
+                            <img src="./assets/img/offer-products/tomatoes.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/asparagus-300x300.jpg" alt="">
+                            <h6>Asparagus</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/broccoli-2-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/cabbage-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="vp-bottom">
+                        <div class="product">
+                            <img src="./assets/img/products/carrots-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/corn-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/eggplant-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/lettuce-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fruits -->
+        <section id="fruits">
+            <div class="vegetable-content container">
+                <div class="vegetable-left">
+                    <h2 class="title">Fruits</h2>
+                    <p>Fresh Organic fruits from our farmers.</p>
+                </div>
+                <div class="vegetable-right">
+                    <div class="vp-top">
+                        <div class="product">
+                            <img src="./assets/img/products/fruits/banana-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/fruits/mango-300x300.jpg" alt="">
+                            <h6>Asparagus</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/fruits/strawberries-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/offer-products/grape.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="vp-bottom">
+                        <div class="product">
+                            <img src="./assets/img/offer-products/watermelon.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/corn-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/fruits/cucumber-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/img/products/lettuce-300x300.jpg" alt="">
+                            <h6>Roma Tomatoes</h6>
+                            <p>$12</p>
+                            <a href="#" class="add-cart-btn">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscription -->
+        <section id="subscription">
+            <div class="subs-content container">
+                <h2 class="subscription-heading">Weve Partnered Up with Farmers Throughout the Entire States</h2>
+                <p>We source our produce from nearly 10.000 farmers around the states. We guarantee that they share the
+                    same passion as we are, in providing good produce.</p>
+                <a href="#" class="subscription-btn">Join Weekly Subscription</a>
+            </div>
+        </section>
+        <!-- testimonials -->
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="title">Testimonials</h2>
+                <h3 class="sub-title">What people say about Growceries</h3>
+                <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-1.jpg" alt="">
+                                <p>Thank you for making it painless, pleasant and most of all hassle free! I like
+                                    groceries more and more each day because it makes my life a lot easier.</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-2-150x150.jpg" alt="">
+                                <p>Groceries is worth much more than I paid. Thanks guys, keep up the good work! Keep up the excellent work. It fits our needs perfectly.</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-3-150x150.jpg" alt="">
+                                <p>After using groceries my business skyrocketed! I would gladly pay over 600 dollars for groceries.</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-4-150x150.jpg" alt="">
+                                <p>Its all good. I would be lost without groceries. Thank you for making it painless, pleasant and most of all hassle free! After using groceries my business skyrocketed!</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-5-150x150.jpg" alt="">
+                                <p>Best. Product. Ever! Absolutely wonderful! If you aren’t sure, always go for groceries. I love groceries.</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-item">
+                                <img src="./assets/img/clients/person-6-150x150.jpg" alt="">
+                                <p>I STRONGLY recommend groceries to EVERYONE interested in running a successful online business! I am really satisfied with my groceries.</p>
+                                <span>Arlene Henry</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!-- brands -->
+        <section id="brands">
+            <div class="brands-content container">
+                <h5 class="text-center">BUSINESSES TRUSTING OUR SERVICES</h5>
+                <div class="brands-logo">
+                    <img src="./assets/img/brands/amara.png" alt="">
+                    <img src="./assets/img/brands/asgardia.png" alt="">
+                    <img src="./assets/img/brands/aven.png" alt="">
+                    <img src="./assets/img/brands/muzica.png" alt="">
+                    <img src="./assets/img/brands/nirastate.png" alt="">
+                    <img src="./assets/img/brands/solaytic.png" alt="">
+                    <img src="./assets/img/brands/utosia-2.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="./assets/img/footer-logo.png" alt="">
+            </div>
+            <p>Fugiat proident incididunt sunt Lorem do Lorem do enim ea voluptate ut aliqua. Ullamco ullamco irure sint
+                adipisicing fugiat occaecat.</p>
+            <ul class="footer-contact">
+                <li><i class="fa-solid fa-location-dot"></i>5171 W Campbell Ave undefined Kent, Utah 53127 United States
+                </li>
+                <li><i class="fa-solid fa-phone"></i>(808) 555-0111</li>
+                <li><i class="fa-solid fa-phone"></i></i>5171 W Campbell Ave undefined Kent, Utah 53127 United States
+                </li>
+                <li><i class="fa-solid fa-envelope"></i>5171 W Campbell Ave undefined Kent, Utah 53127 United States
+                </li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <img src="./assets/img/google-maps.png" alt="">
+        </div>
+    </footer>
+
+    <!-- swiper slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- fade animation -->
+    <script src="./assets/js/fade-slide-scrolling/dist/jqFuwatto.umd.js"></script>
+    <!-- main js -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
